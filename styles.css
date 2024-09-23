@@ -1,0 +1,182 @@
+body {
+    background-image: url('lupin.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    font-size: 1.2rem;
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+.playwrite-cu {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.playfair-display> {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+  article {
+    background: transparent;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 70vw;
+    padding: 3vh;
+  }
+  .frontpage-box {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 10vh;
+  }
+  .link {
+    color: #fff;
+    box-sizing: border-box;
+    padding: 2vh;
+    flex-grow: 1;
+    text-align: center;
+  }
+  .content-box {
+    text-align: justify;
+    background-color: rgba(255,255,255,0.7);
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    line-height: 5vh;
+    padding: 2vw;
+    font-size: 1.1rem;
+    border-radius: 25px;
+  }
+  .graphics-box {
+    background-image: url('filmi.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    box-sizing: border-box;
+    min-height: 50vh;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+  }
+  .title-box {
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 3vh;
+  }
+  .title-box h1 {
+    font-family: 'Playwrite CU', cursive;
+    color: #d6a058;
+    font-size: 3.2rem;
+    text-transform: none;
+    font-weight: normal;
+  }
+  footer {
+    width: 100vw;
+    background-color: rgba(0,0,0,0.8);
+    box-sizing: border-box;
+    font-family: 'Playwrite CU', cursive;
+    color: #d6a058;
+    text-align: center;
+    padding: 4vh;
+    bottom: 0px;
+    margin-top: 5vh;
+    position: relative;
+    font-size: 1.1rem;
+  }
+  .mobile {
+    display: none;
+    width: 0px;
+  }
+  .mob {
+    display: none;
+  }
+  @media only screen and (max-width: 768px) {
+  .mobile {
+      background-color: rgba(0,0,0,0.8);
+      display: block;
+      width: 100%;
+      height: 7%;
+      padding: 0.5% 0px 0px 2.5%;
+      position: fixed;
+      overflow-x: hidden;
+      z-index: 1;
+      border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+    .mob {
+      display: block;
+      background-color: rgba(255,255,255,0.8);
+      padding: 0px;
+      text-align: center;
+      box-sizing: border-box;
+      top: 0px;
+      position: sticky;
+      position: -webkit-sticky;
+      z-index: 1;
+    }
+    .mob ul {
+      background-color: rgba(184,166,138,0.7);
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+    }
+    .mob li {
+      display: inline-block;
+      margin: 0px;
+      padding: 20px;
+      width: 33%;
+    }
+    .mob a {
+      color: #573a1f;
+      font-weight: bold;
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+    }
+    .mob a:hover {
+      text-decoration: none;
+    }
+    li.normal {
+      border-bottom:1px solid rgba(255,255,255,0.05);
+    }
+    .contentbox {
+      padding: 30px;
+      box-sizing: border-box;
+    }
+    .contentbox.new {
+      margin-top: 5vh;
+    }
+    .content-section {
+      padding: 0 0 5vh 0;
+    }
+    .title-box {
+      text-align: center;
+      padding: 15vh 0 15vh 0;
+      box-sizing: border-box;
+    }
+    .title-box h1 {
+      font-size: 3.2rem;
+      margin-bottom: 1.2rem;
+    }
+    .title-box h2 {
+      font-size: 1rem;
+      letter-spacing: 1px;
+    }
+    .sidebar-section {
+      background-position: center;
+      width: 100%;
+      height: 60vh;
+    }
+    footer {
+      box-sizing: border-box;
+      text-align: center;
+      padding: 30px 0px 30px 0px;
+      bottom: 0px;
+      position: relative;
+    }
+  }
+  
