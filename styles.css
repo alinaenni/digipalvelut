@@ -1,3 +1,15 @@
+.playwrite-cu {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+.playfair-display {
+      font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+      font-weight: normal;
+      font-style: normal;
+}
 body {
     background-image: url('lupin.jpg');
     background-repeat: no-repeat;
@@ -8,18 +20,6 @@ body {
     padding: 0px;
     box-sizing: border-box;
   }
-.playwrite-cu {
-  font-family: "Playwrite CU", cursive;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
-}
-.playfair-display> {
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-  }
   article {
     background: transparent;
     margin: 0;
@@ -29,7 +29,12 @@ body {
   }
   .container {
     max-width: 70vw;
-    padding: 3vh;
+    margin: 0 auto;
+  } 
+  .container2 {
+    padding-top: 12vh;
+    max-width: 70vw;
+    margin: 0 auto;
   }
   .frontpage-box {
     box-sizing: border-box;
@@ -50,18 +55,50 @@ body {
     text-align: center;
     flex-shrink: 1;
   }
+  .link2 {
+    background: none;
+    box-sizing: border-box;
+    padding: 2vw;
+    text-align: center;
+    flex-shrink: 1;
+  }
   .frontpage-box a {
     font-family: 'Playfair Display', serif;
     color: #d6a058;
-    transition-duration: 450ms;
+    transition-duration: 350ms;
   }
   .frontpage-box a:hover {
     font-family: 'Playfair Display', serif;
-    color: #fad591;
+    color: #ffd769;
+  }
+  .navigation {
+    width: 100vw;
+    height: 12vh;
+    background-color: rgba(0,0,0,0.9);
+    box-sizing: border-box;
+    position: fixed;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+  }
+  .navigation a {
+    font-family: 'Playfair Display', serif;
+    color: #d6a058;
+    transition-duration: 350ms;
+  }
+  .navigation a:hover {
+    font-family: 'Playfair Display', serif;
+    color: #ffd769;
   }
   .content-box {
     text-align: justify;   
     background-color: rgba(255,255,255,0.8);
+    margin-bottom: 7vh;
     box-sizing: border-box;
     font-family: 'Playfair Display', serif;
     line-height: 5vh;
@@ -71,8 +108,13 @@ body {
   }
   .content-box h1 {
     font-family: 'Playfair Display', serif;
-    line-height: 2rem;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
+    color: #594d3d;
+    margin-top: 2vh;
+  }
+  .content-box h3 {
+    font-family: 'Playwrite CU', serif;
+    font-size: 1rem;
     color: #594d3d;
     margin-top: 2vh;
   }
@@ -82,20 +124,34 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     box-sizing: border-box;
-    height: 45vh;
-    margin-top: 3vh;
-    margin-bottom: 5vh;
+    height: 50vh;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
   }
   .title-box {
     text-align: center;
     box-sizing: border-box;
     padding: 0;
-    margin-top: 5vh;
+    margin-top: 8vh;
   }
   .title-box h1 {
     font-family: 'Playwrite CU', cursive;
     color: #d6a058;
-    font-size: 3em;
+    font-size: 3.3em;
+    margin: 0px;
+    font-weight: normal;
+  }
+  .page-heading {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+  }
+  .page-heading h1 {
+    font-family: 'Playwrite CU', cursive;
+    color: #d6a058;
+    font-size: 2em;
     margin: 0px;
     font-weight: normal;
   }
@@ -109,12 +165,23 @@ body {
     padding: 5vh;
     bottom: 0;
     position: relative;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   @media only screen and (max-width: 768px) {
     .link {
         padding: 4vw;
         flex-shrink: 1;
+      }
+    .graphics-box {
+        height: 40vh;
+        margin-top: 2vh;
+        margin-bottom: 7vh;
+      }
+      .title-box {
+        margin-top: 10vh;
+      }
+      .navigation {
+        padding: 2vh;
       }
   }
   
