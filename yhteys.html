@@ -42,14 +42,42 @@
             <h1>Ota yhteyttä</h1>
         </div>
 
-        <div class="content-box">
-            <h3>24.9.2024</h3>
-            <h1>Helpot villasukat</h1>
-            <p>Neuloin värikkäät Twin Peaks -sukat lahjaksi, joten sukat valmistuivat melkeinpä ennätysajassa. Suunnitteluvaiheessa tein taustatyötä 
-            tutkimalla muiden tekemiä Twin Peaks -aiheisia sukkia, mutta en löytänyt mistään itseäni miellyttävää ohjekokonaisuutta. Päädyin siis 
-            kehittämään oman uniikin sukkamallini hyödyntämällä piirroksissani muutamaa olemassa olevaa ohjetta. Päädyin siis ensimmäistä kertaa
-            kokeilemaan silmukkapiirroksen tekemistä itsenäisesti, jotta sain sukista juuri haluamani näköiset.</p>
-        </div>
+        <form>
+            <div class="row">
+              <div class="col">
+                <label for="etu">Etunimi</label>
+                <input type="text" id="etu" class="form-control" placeholder="Matti">
+              </div>
+              <div class="col">
+                <label for="suku">Sukunimi</label>
+                <input type="text" id="suku" class="form-control" placeholder="Meikäläinen">
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                  <label for="puhelin">Puhelinnumero</label>
+                  <input type="text" id="puhelin" class="form-control" placeholder="012 123 1234">
+                </div>
+                <div class="col">
+                <label for="email">Email</label>
+                  <input type="text" id="email" class="form-control" placeholder="matti.meikalainen@email.com">
+                </div>
+              </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="message">Viesti</label>
+                    <textarea id="message" class="form-control" placeholder="Kysy, pohdi, tiedustele. Sana on vapaa." rows="20"></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col text-center">
+                    <button type="submit" class="btn btn-primary">Lähetä</button>
+                </div>
+            </div>
+          </form>
             
       </div>
   </article>

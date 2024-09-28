@@ -6,9 +6,11 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
-        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="grid-gallery.css">
+        
+        <!-- My CSS -->
         <link rel="stylesheet" type="text/css" href="styles.css">
 
         <!-- Fonts from Google Fonts -->
@@ -42,18 +44,52 @@
             <h1>Galleria</h1>
         </div>
 
-        <div class="content-box">
-            <h3>24.9.2024</h3>
-            <h1>Helpot villasukat</h1>
-            <p>Neuloin värikkäät Twin Peaks -sukat lahjaksi, joten sukat valmistuivat melkeinpä ennätysajassa. Suunnitteluvaiheessa tein taustatyötä 
-            tutkimalla muiden tekemiä Twin Peaks -aiheisia sukkia, mutta en löytänyt mistään itseäni miellyttävää ohjekokonaisuutta. Päädyin siis 
-            kehittämään oman uniikin sukkamallini hyödyntämällä piirroksissani muutamaa olemassa olevaa ohjetta. Päädyin siis ensimmäistä kertaa
-            kokeilemaan silmukkapiirroksen tekemistä itsenäisesti, jotta sain sukista juuri haluamani näköiset.</p>
-        </div>
-            
+        <section class="gallery-block grid-gallery">
+            <div class="container3">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="./knitting/1.jpg">
+                            <img class="img-fluid image scale-on-hover" src="./knitting/1.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="./knitting/2.jpg">
+                            <img class="img-fluid image scale-on-hover" src="./knitting/2.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="./knitting/3.jpg">
+                            <img class="img-fluid image scale-on-hover" src="./knitting/3.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="./knitting/4.jpg">
+                            <img class="img-fluid image scale-on-hover" src="./knitting/4.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="./knitting/8.jpg">
+                            <img class="img-fluid image scale-on-hover" src="./knitting/8.jpg">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <a class="lightbox" href="./knitting/6.jpg">
+                            <img class="img-fluid image scale-on-hover" src="./knitting/6.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
       </div>
   </article>
 
   <footer>Design by Alina Rouvinen</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+  <script>
+      baguetteBox.run('.grid-gallery', { animation: 'slideIn'});
+  </script>
 </body>
 </html>

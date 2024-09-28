@@ -36,6 +36,10 @@ body {
     max-width: 70vw;
     margin: 0 auto;
   }
+  .container3 {
+    width: 100%;
+    margin: 0 auto;
+  } 
   .frontpage-box {
     box-sizing: border-box;
     margin: 0 auto;
@@ -85,6 +89,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 1.5em;
+    z-index: 1;
   }
   .navigation a {
     font-family: 'Playfair Display', serif;
@@ -102,7 +107,7 @@ body {
     box-sizing: border-box;
     font-family: 'Playfair Display', serif;
     line-height: 5vh;
-    padding: 5vw 8vw 5vw 8vw;
+    padding: 4vw 6vw 4vw 6vw;
     font-size: 1.1rem;
     color: #000;
   }
@@ -155,6 +160,34 @@ body {
     margin: 0px;
     font-weight: normal;
   }
+  form {
+    box-sizing: border-box;
+    background: transparent;
+    padding: 2vw !important;
+    background-color: rgba(0,0,0,0.7) !important; 
+ }
+ label {
+    font-family: 'Playfair Display', serif;
+    font-size: 1em !important;
+    color: #d6a058 !important;   
+    margin-bottom: 1vh;
+ }
+.form-control {
+    background-color: rgba(255,255,255,0.8) !important;
+    border-radius: 8px !important; /* Rounded corners */
+    box-sizing: border-box !important;
+    padding: 2vw !important;
+    margin: 0px !important;
+    box-shadow: none !important; /* Remove Bootstrap's shadow on focus */
+    font-family: 'Playfair Display', serif;
+}
+.btn {
+    background-color: #d6a058 !important;
+    font-size: 1em !important;
+    font-family: 'Playfair Display', serif;
+    text-transform: none !important;
+    margin-top: 2vh;
+}
   footer {
     width: 100vw;
     background-color: rgba(0,0,0,0.8);
@@ -163,7 +196,7 @@ body {
     color: #d6a058;
     text-align: center;
     padding: 5vh;
-    bottom: 0;
+    margin-bottom: 0px;
     position: relative;
     font-size: 1.3rem;
   }
@@ -182,6 +215,11 @@ body {
       }
       .navigation {
         padding: 2vh;
+      }
+      .container2 {
+        padding-top: 12vh;
+        max-width: 90vw;
+        margin: 0 auto;
       }
   }
   
