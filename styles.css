@@ -199,9 +199,10 @@ body {
     color: #ebd883;
     text-align: center;
     padding: 5vh;
+    margin-top: 5vh;
     margin-bottom: 0px;
     position: relative;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   @media only screen and (max-width: 768px) {
     .link {
@@ -228,6 +229,9 @@ body {
         margin-bottom: 7vh;
         line-height: 5vh;
         padding: 4vw 8vw 4vw 8vw;
+      }
+      footer {
+        margin-top: 0vh;
       }
   }
   
