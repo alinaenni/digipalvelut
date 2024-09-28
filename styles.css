@@ -69,12 +69,12 @@ body {
   }
   .frontpage-box a {
     font-family: 'Playfair Display', serif;
-    color: #ebd883;
+    color: #dbc872;
     transition-duration: 350ms;
   }
   .frontpage-box a:hover {
     font-family: 'Playfair Display', serif;
-    color: #ebd883;
+    color: #dbc872;
   }
   .navigation {
     width: 100vw;
@@ -94,12 +94,12 @@ body {
   }
   .navigation a {
     font-family: 'Playfair Display', serif;
-    color: #ebd883;
+    color: #dbc872;
     transition-duration: 350ms;
   }
   .navigation a:hover {
     font-family: 'Playfair Display', serif;
-    color: #ebd883;
+    color: #dbc872;
   }
   .content-box {
     text-align: justify;   
@@ -142,7 +142,7 @@ body {
   }
   .title-box h1 {
     font-family: 'Playwrite CU', cursive;
-    color: #ebd883;
+    color: #dbc872;
     font-size: 3.3em;
     margin: 0px;
     font-weight: normal;
@@ -156,7 +156,7 @@ body {
   }
   .page-heading h1 {
     font-family: 'Playwrite CU', cursive;
-    color: #ebd883;
+    color: #dbc872;
     font-size: 2em;
     margin: 0px;
     font-weight: normal;
@@ -170,7 +170,7 @@ body {
  label {
     font-family: 'Playfair Display', serif;
     font-size: 1em !important;
-    color: #ebd883 !important;   
+    color: #dbc872 !important;   
     margin-bottom: 1vh;
  }
 .form-control {
@@ -184,7 +184,7 @@ body {
     font-family: 'Playfair Display', serif;
 }
 .btn {
-    background-color: #ebd883 !important;
+    background-color: #dbc872 !important;
     color: #000 !important;
     font-size: 1em !important;
     font-family: 'Playfair Display', serif;
