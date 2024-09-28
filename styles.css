@@ -13,6 +13,7 @@
 body {
     background-image: url('lupin.jpg');
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: top;
     background-size: cover;
     font-size: 1.2rem;
@@ -68,12 +69,12 @@ body {
   }
   .frontpage-box a {
     font-family: 'Playfair Display', serif;
-    color: #d6a058;
+    color: #ebd883;
     transition-duration: 350ms;
   }
   .frontpage-box a:hover {
     font-family: 'Playfair Display', serif;
-    color: #ffd769;
+    color: #ebd883;
   }
   .navigation {
     width: 100vw;
@@ -93,12 +94,12 @@ body {
   }
   .navigation a {
     font-family: 'Playfair Display', serif;
-    color: #d6a058;
+    color: #ebd883;
     transition-duration: 350ms;
   }
   .navigation a:hover {
     font-family: 'Playfair Display', serif;
-    color: #ffd769;
+    color: #ebd883;
   }
   .content-box {
     text-align: justify;   
@@ -124,7 +125,7 @@ body {
     margin-top: 2vh;
   }
   .graphics-box {
-    background-image: url('filmi.jpg');
+    background-image: url('filmi2.jpg');
     background-size:contain;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -141,7 +142,7 @@ body {
   }
   .title-box h1 {
     font-family: 'Playwrite CU', cursive;
-    color: #d6a058;
+    color: #ebd883;
     font-size: 3.3em;
     margin: 0px;
     font-weight: normal;
@@ -155,7 +156,7 @@ body {
   }
   .page-heading h1 {
     font-family: 'Playwrite CU', cursive;
-    color: #d6a058;
+    color: #ebd883;
     font-size: 2em;
     margin: 0px;
     font-weight: normal;
@@ -169,7 +170,7 @@ body {
  label {
     font-family: 'Playfair Display', serif;
     font-size: 1em !important;
-    color: #d6a058 !important;   
+    color: #ebd883 !important;   
     margin-bottom: 1vh;
  }
 .form-control {
@@ -178,11 +179,13 @@ body {
     box-sizing: border-box !important;
     padding: 2vw !important;
     margin: 0px !important;
+    color: #000 !important;
     box-shadow: none !important; /* Remove Bootstrap's shadow on focus */
     font-family: 'Playfair Display', serif;
 }
 .btn {
-    background-color: #d6a058 !important;
+    background-color: #ebd883 !important;
+    color: #000 !important;
     font-size: 1em !important;
     font-family: 'Playfair Display', serif;
     text-transform: none !important;
@@ -193,7 +196,7 @@ body {
     background-color: rgba(0,0,0,0.8);
     box-sizing: border-box;
     font-family: 'Playwrite CU', cursive;
-    color: #d6a058;
+    color: #ebd883;
     text-align: center;
     padding: 5vh;
     margin-bottom: 0px;
@@ -220,6 +223,11 @@ body {
         padding-top: 12vh;
         max-width: 90vw;
         margin: 0 auto;
+      }
+      .content-box {
+        margin-bottom: 7vh;
+        line-height: 5vh;
+        padding: 4vw 8vw 4vw 8vw;
       }
   }
   
