@@ -110,13 +110,13 @@ body {
     font-size: 1.1rem;
     color: #000;
   }
-  .content-box h1 {
+  .content-box h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2.1rem;
     color: #594d3d;
     margin-top: 2vh;
   }
-  .content-box h3 {
+  .content-box h1 {
     font-family: 'Playwrite CU', serif;
     font-size: 1rem;
     color: #594d3d;
