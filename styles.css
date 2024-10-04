@@ -18,13 +18,15 @@ body {
     margin: auto;
     padding: 0px;
     box-sizing: border-box;
+    width: 100%;
   }
   article {
     background: transparent;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     min-height: 100vh;
+    width: 100%;
   }
   .container {
     max-width: 70vw;
@@ -190,7 +192,7 @@ body {
     margin-top: 2vh;
 }
   footer {
-    width: 100vw;
+    width: 100%;
     background-color: rgba(0,0,0,0.8);
     box-sizing: border-box;
     font-family: 'Playwrite CU', cursive;
